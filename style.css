@@ -20,6 +20,10 @@
 .flex-wrap{
     flex-wrap: wrap;
 }
+
+.space-between{
+    justify-content: space-between;
+}
 /* FINE FLEX */
 
 /* CLASSI MAIN */
@@ -68,9 +72,10 @@ footer{
 @media screen and (max-width: 768px){
     header{
         background-color: var(--header-bg-color);
-        width: 200px;
+        width: 233px;
         height: calc(100vh - 120px);
     }
+
     
 }
 
@@ -84,7 +89,6 @@ footer{
         width: 60px;
         height: calc(100vh - 120px);
     }
-
     main{
         width: calc(100% - 60px);
         background-color: aqua;
