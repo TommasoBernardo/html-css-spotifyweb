@@ -31,6 +31,30 @@
 /* FINE FLEX */
 
 /* CLASSI MAIN */
+
+/* NAV */
+nav ul li{
+    width: calc((100% - 2rem) / 4);
+    height: 20px;
+    background-color: red;
+    list-style-type: none;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+nav ul{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.small-container{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+/* FINE NAV */
+
 .container{
     width: 98%;
     height: 100%;
@@ -54,6 +78,7 @@
     top: 20px;
     right: 10px;
 }
+
 
 .principal div{
     margin-top: 6rem;
@@ -107,6 +132,14 @@ footer{
         height: calc(100vh - 120px );
         overflow: auto;
     }
+    nav ul li{
+        width: calc((100% - 2rem) / 3);
+        height: 20px;
+        background-color: red;
+        list-style-type: none;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
 }
 
 
@@ -138,6 +171,14 @@ footer{
         flex-wrap: wrap;
         justify-content: start;
     }
+
+    nav ul li{
+        width: calc((100% - 2rem) / 5);
+        height: 20px;
+        background-color: red;
+        list-style-type: none;
+        margin-bottom: 1rem;
+    }
     
 }
 
@@ -167,6 +208,14 @@ footer{
         width: 100%;
         border:  5px dotted black;
         flex-wrap: wrap;    
+    }
+
+    nav ul li{
+        width: calc((100% - 2rem) / 6);
+        height: 20px;
+        background-color: red;
+        list-style-type: none;
+        margin-bottom: 1rem;
     }
     
 }
