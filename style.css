@@ -191,11 +191,25 @@ margin: 0 auto;
 }
 
 
-/* john doe */
+/* Tommaso */
+article .container-mix h2{
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 63.5rem;
+    left: 10px;
+}
+article .container-mix p{
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 66rem;
+    left: 10px;
+    color: gray;
+}
 .mix{
     margin-top: 6rem;
     width: calc((100% - 2rem) / 2);
-    background-color: greenyellow;
     height: 200px;
 }
 
@@ -204,7 +218,39 @@ margin: 0 auto;
     height: 100%;
     margin: 0 auto;
 }
-/*  fine john doe */
+
+.per-te{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.suggerimenti{
+    width: 100%;
+}
+
+.titolo{
+    width: 50%;
+    margin: 0 auto;
+}
+
+article span{
+    color: white;
+}
+
+/*  Fine Tommaso */
+
+/* rotondi */
+.circle{
+    border-radius: 100%;
+    width: 200px;
+    display: block;
+    overflow: hidden;
+}
+.young{
+    width: 100%;
+}
+/* fine rotondi */
+
 
 
 /* FINE CLASSI MAIN */
@@ -350,7 +396,6 @@ footer{
     .mix{
         margin-top: 6rem;
         width: 23.5%;
-        background-color: greenyellow;
         height: 200px;
     }
 
@@ -402,7 +447,6 @@ footer{
     .mix{
         margin-top: 6rem;
         width: 16%;
-        background-color: greenyellow;
         height: 200px;
     }
 
