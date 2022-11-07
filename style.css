@@ -80,7 +80,7 @@ nav ul{
 }
 
 
-.principal div{
+.played{
     margin-top: 6rem;
     width: calc((100% - 2rem) / 2);
     background-color: coral;
@@ -93,6 +93,21 @@ nav ul{
     flex-wrap: wrap;
 }
 
+
+/* john doe */
+.mix{
+    margin-top: 6rem;
+    width: calc((100% - 2rem) / 2);
+    background-color: greenyellow;
+    height: 200px;
+}
+
+.container-mix{
+    width: 98%;
+    height: 100%;
+    margin: 0 auto;
+}
+/*  fine john doe */
 
 
 /* FINE CLASSI MAIN */
@@ -140,6 +155,7 @@ footer{
         margin-bottom: 1rem;
         text-align: center;
     }
+
 }
 
 
@@ -156,7 +172,7 @@ footer{
         overflow: auto;
     }
 
-    .principal div{
+    .played{
         margin-top: 6rem;
         width: calc((100% - 2rem) / 4);
         background-color: coral;
@@ -179,6 +195,24 @@ footer{
         list-style-type: none;
         margin-bottom: 1rem;
     }
+
+    .mix{
+        margin-top: 6rem;
+        width: 23.5%;
+        background-color: greenyellow;
+        height: 200px;
+    }
+
+    .container-mix .mix:first-child{
+        margin-right: 1rem;
+    }
+    
+    .container-mix{
+        width: 98%;
+        height: 100%;
+        margin: 0 auto;
+        justify-content: left;
+    }
     
 }
 
@@ -195,7 +229,7 @@ footer{
         overflow: auto;
     }
 
-    .principal div{
+    .played{
         margin-top: 6rem;
         width: calc((100% - 2rem) / 6);
         background-color: coral;
@@ -216,6 +250,25 @@ footer{
         background-color: red;
         list-style-type: none;
         margin-bottom: 1rem;
+    }
+
+    .mix{
+        margin-top: 6rem;
+        width: 16%;
+        background-color: greenyellow;
+        height: 200px;
+    }
+
+    .container-mix .mix:first-child{
+        margin-right: 1rem;
+    }
+    
+    .container-mix{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        justify-content: left;
+        margin-left: .3rem;
     }
     
 }
