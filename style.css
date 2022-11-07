@@ -25,7 +25,39 @@
     justify-content: space-between;
 }
 /* FINE FLEX */
+/* CLASSI HEADER */
+.fa-solid{
+    filter: invert(1);
 
+}
+.fa-brands{
+    color: white;
+}
+
+.fa-user{
+    margin-top: 1rem;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    flex-direction: column;
+    margin-left: 1.3rem;
+}
+
+header ul li{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+header ul li span{
+    color: white;
+    display: none;
+    list-style-type: none;
+}
+/* FINE CLASSI HEADER */
 /* CLASSI MAIN */
 
 /* NAV */
@@ -113,6 +145,10 @@ header{
     background-color: var(--header-bg-color);
     width: 60px;
     height: calc(100vh - 120px );
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 main{
     width: calc(100% - 60px);
@@ -151,6 +187,11 @@ footer{
         list-style-type: none;
         margin-bottom: 1rem;
         text-align: center;
+    }
+
+    header ul li span{
+        color: white;
+        list-style-type: none;
     }
 
 }
