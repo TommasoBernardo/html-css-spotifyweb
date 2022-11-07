@@ -384,6 +384,7 @@ footer{
         width: 100%;
         flex-wrap: wrap;
         justify-content: start;
+        position: relative;
     }
 
     nav ul li{
@@ -397,6 +398,23 @@ footer{
         margin-top: 6rem;
         width: 23.5%;
         height: 200px;
+    }
+
+    article .container-mix h2{
+        color: white;
+        text-align: left;
+        position: absolute;
+        top: 44.5rem;
+        left: 10px;
+    }
+
+    article .container-mix p{
+        color: white;
+        text-align: left;
+        position: absolute;
+        top: 47rem;
+        left: 10px;
+        color: gray;
     }
 
     .container-mix .mix:first-child{
@@ -430,11 +448,13 @@ footer{
         width: calc((100% - 2rem) / 6);
         height: 200px;
         margin-left: 5px;
+        margin-bottom: 3rem;
 
     }
     .principal{
         width: 100%;
-        flex-wrap: wrap;    
+        flex-wrap: wrap;   
+        position: relative; 
     }
 
     nav ul li{
@@ -448,6 +468,24 @@ footer{
         margin-top: 6rem;
         width: 16%;
         height: 200px;
+    }
+
+    
+    article .container-mix h2{
+        color: white;
+        text-align: left;
+        position: absolute;
+        top: 27.5rem;
+        left: 10px;
+    }
+
+    article .container-mix p{
+        color: white;
+        text-align: left;
+        position: absolute;
+        top: 30rem;
+        left: 10px;
+        color: gray;
     }
 
     .container-mix .mix:first-child{
