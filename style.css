@@ -179,18 +179,7 @@ article h2{
     left: 30px;
 }
 
-.fa-circle-play{
-    position: absolute;
-    left: 30px;
-    top: 25px;
-    font-size: 4rem;
-    color: white;
-    display: none;
-}
 
-.fa-circle-play:hover{
-    display: initial;
-}
 
 .played{
     margin-top: 6rem;
@@ -200,16 +189,32 @@ article h2{
 
 .played img{
     width: 100%;
+    position: relative;
 }
 
-.played img:hover{
-    opacity: 0.60;
-}
+
 
 .adattamento{
 width: 75%;
 margin: 0 auto;
 position: relative;
+}
+
+.adattamento:hover{
+    opacity: 0.60;
+}
+
+.fa-circle-play{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    color: white;
+    font-size: 3rem;
+    opacity: 0;
+}
+
+.circle-play:hover .fa-circle-play{
+    opacity: 1;
 }
 
 .autore{
@@ -256,6 +261,7 @@ article .container-mix p{
     margin-bottom: 2rem;
     width: calc((100% - 2rem) / 2);
     height: 200px;
+    position: relative;
 }
 
 .container-mix{
@@ -267,6 +273,7 @@ article .container-mix p{
 .per-te{
     width: 75%;
     margin: 0 auto;
+    position: relative;
 }
 
 .suggerimenti{
