@@ -264,6 +264,10 @@ article .container-mix p{
     position: relative;
 }
 
+.mix:hover{
+    opacity: 0.60;
+}
+
 .container-mix{
     width: 98%;
     height: 100%;
@@ -274,6 +278,11 @@ article .container-mix p{
     width: 75%;
     margin: 0 auto;
     position: relative;
+}
+
+
+.per-te:hover{
+    opacity: 0.60;
 }
 
 .suggerimenti{
