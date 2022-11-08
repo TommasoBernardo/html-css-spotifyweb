@@ -154,7 +154,7 @@ article h2{
     text-align: left;
     position: absolute;
     top: 8rem;
-    left: 10px;
+    left: 30px;
 }
 
 .played{
@@ -201,18 +201,19 @@ article .container-mix h2{
     text-align: left;
     position: absolute;
     top: 63.5rem;
-    left: 10px;
+    left: 30px;
 }
 article .container-mix p{
     color: white;
     text-align: left;
     position: absolute;
     top: 66rem;
-    left: 10px;
+    left: 30px;
     color: gray;
 }
 .mix{
     margin-top: 6rem;
+    margin-bottom: 2rem;
     width: calc((100% - 2rem) / 2);
     height: 200px;
 }
@@ -326,6 +327,7 @@ footer{
 
     .white{
         color: white;
+        font-size: 1.2rem;
     }
     header .logo{
         display: block;
@@ -337,7 +339,6 @@ footer{
 
     .playlist{
         display: block;
-        font-size: 1rem;
     }
 
     .playlist li{
@@ -415,7 +416,7 @@ footer{
         text-align: left;
         position: absolute;
         top: 44.5rem;
-        left: 10px;
+        left: 30px;
     }
 
     article .container-mix p{
@@ -423,7 +424,7 @@ footer{
         text-align: left;
         position: absolute;
         top: 47rem;
-        left: 10px;
+        left: 30px;
         color: gray;
     }
 
@@ -486,7 +487,7 @@ footer{
         text-align: left;
         position: absolute;
         top: 27.5rem;
-        left: 10px;
+        left: 30px;
     }
 
     article .container-mix p{
@@ -494,7 +495,7 @@ footer{
         text-align: left;
         position: absolute;
         top: 30rem;
-        left: 10px;
+        left: 30px;
         color: gray;
     }
 
