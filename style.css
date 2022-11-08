@@ -46,7 +46,6 @@
     text-align: center;
     list-style-type: none;
     color: white;
-    transition: 2s;
 }
 
 .account:hover{
@@ -67,7 +66,6 @@ header .logo{
 
 .color{
     color: gray;
-    transition: 2s;
     list-style-type: none;
 }
 
@@ -123,7 +121,6 @@ nav ul li{
     margin-bottom: 1rem;
     text-align: center;
     font-size: .6rem;
-    transition: 2s;
 }
 
 nav ul li:hover{
@@ -169,7 +166,6 @@ nav ul{
     position: absolute;
     top: 25px;
     right: 10px;
-    transition: 2s;
 }
 
 .button:hover{
@@ -183,6 +179,19 @@ article h2{
     left: 30px;
 }
 
+.fa-circle-play{
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    font-size: 4rem;
+    color: white;
+    display: none;
+}
+
+.fa-circle-play:hover{
+    display: initial;
+}
+
 .played{
     margin-top: 6rem;
     width: calc((100% - 2rem) / 2);
@@ -193,9 +202,14 @@ article h2{
     width: 100%;
 }
 
+.played img:hover{
+    opacity: 0.60;
+}
+
 .adattamento{
 width: 75%;
 margin: 0 auto;
+position: relative;
 }
 
 .autore{
@@ -340,7 +354,6 @@ footer{
 
     .color{
         color: gray;
-        transition: 2s;
         list-style-type: none;
     }
     
@@ -409,7 +422,6 @@ footer{
     .install{
         display: initial;
         color: gray;
-        transition: 2s;
     }
 
     .install:hover{
